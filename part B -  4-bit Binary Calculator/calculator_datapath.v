@@ -1,0 +1,61 @@
+module calculator_datapath (
+    input clk,
+    input reset,
+    input [3:0] data_in,
+    input [2:0] op_code,         // Instruction: LOAD A, LOAD B, COMPUTE, etc.
+    input [1:0] compute_op,      // Operation for ALU: ADD, SUB, etc.
+    output [7:0] result,
+    output done,
+    output negative,
+    output div_by_zero
+);
+
+    // Derived control signals
+    wire load_signal = (op_code == 3'b001 || op_code == 3'b011); // LOAD A or B
+    wire write_addr  = op_code[1];  // 0 for A (001), 1 for B (011)
+    wire [1:0] sel;                 // Load signals to reg_A and reg_B
+
+    // Register outputs
+    wire [3:0] A, B;
+
+    // Decoder to select which register to load
+    decoder_1to2 dec (
+        .write_addr(write_addr),
+        .load(load_signal),
+        .sel(sel)
+    );
+
+    // Register A (load when sel[0] is 1)
+    dff4 reg_A (
+        .clk(clk),
+        .reset(reset),
+        .load(sel[0]),
+        .d(data_in),
+        .q(A)
+    );
+
+    // Register B (load when sel[1] is 1)
+    dff4 reg_B (
+        .clk(clk),
+        .reset(reset),
+        .load(sel[1]),
+        .d(data_in),
+        .q(B)
+    );
+
+    // ALU (computes and outputs final result)
+    alu alu_inst (
+        .clk(clk),
+        .reset(reset),
+        .A(A),
+        .B(B),
+        .op_code(op_code),
+        .compute_op(compute_op),
+        .result(result),
+        .done(done),
+        .div_by_zero(div_by_zero),
+        .negative(negative)
+    );
+
+endmodule
+

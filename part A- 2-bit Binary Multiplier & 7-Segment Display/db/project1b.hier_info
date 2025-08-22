@@ -1,0 +1,43 @@
+|project1b
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+seg[0] <= seg_decoder:dec.seg
+seg[1] <= seg_decoder:dec.seg
+seg[2] <= seg_decoder:dec.seg
+seg[3] <= seg_decoder:dec.seg
+seg[4] <= seg_decoder:dec.seg
+seg[5] <= seg_decoder:dec.seg
+seg[6] <= seg_decoder:dec.seg
+
+
+|project1b|binary_multiplier:mult
+A[0] => and_gate1.IN0
+A[0] => and_gate2.IN0
+A[1] => and_gate3.IN0
+A[1] => and_gate4.IN0
+B[0] => and_gate2.IN1
+B[0] => and_gate3.IN1
+B[1] => and_gate1.IN1
+B[1] => and_gate4.IN1
+C[0] <= and_gate2.DB_MAX_OUTPUT_PORT_TYPE
+C[1] <= xor_gate1.DB_MAX_OUTPUT_PORT_TYPE
+C[2] <= xor_gate2.DB_MAX_OUTPUT_PORT_TYPE
+C[3] <= and_gate6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|project1b|seg_decoder:dec
+num[0] => Decoder0.IN3
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

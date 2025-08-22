@@ -1,0 +1,101 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vbinary_multiplier
+Z1 I:ihNn64XgF`6O7Ya9eH181
+Z2 VV4@FzfXjV0AQmaBm[V2l?2
+Z3 dC:\altera\13.0sp1\project1\project1b
+Z4 w1742399278
+Z5 8C:/altera/13.0sp1/project1/project1b/project1b.v
+Z6 FC:/altera/13.0sp1/project1/project1b/project1b.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s108 1743091645.075000
+Z9 !s107 C:/altera/13.0sp1/project1/project1b/project1b.v|
+Z10 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project1/project1b/project1b.v|
+Z11 o-work work -O0
+!i10b 1
+Z12 !s100 ]09NF^f7H]1<VGoHgGC_g2
+!s85 0
+!s101 -O0
+vbinary_multiplierTB
+Z13 !s100 a;:`DADbIMh[;aE?WJVcP2
+Z14 I0l`8KEgQ;UAhaP88=1e;22
+Z15 VmI3l>ml6LKLYg5R3Qm5hT3
+R3
+Z16 w1742847202
+Z17 8C:/altera/13.0sp1/project1/project1b/binary_multiplier_tb.v
+Z18 FC:/altera/13.0sp1/project1/project1b/binary_multiplier_tb.v
+L0 1
+R7
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project1/project1b/binary_multiplier_tb.v|
+R11
+Z20 nbinary_multiplier@t@b
+Z21 !s108 1743091644.725000
+Z22 !s107 C:/altera/13.0sp1/project1/project1b/binary_multiplier_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vproject1b
+Z23 !s100 lGZizacOI`1Xn3=dNHRD:3
+Z24 I?3Z]`kfV5cI0eknNVL_WZ3
+Z25 Vk7NYCOU[4Yef=aCa2ZORR2
+R3
+R4
+R5
+R6
+L0 39
+R7
+r1
+31
+R8
+R9
+R10
+R11
+!i10b 1
+!s85 0
+!s101 -O0
+vproject1b_tb
+!i10b 1
+Z26 !s100 Pg9zOQ]j]K<XoB<O1anDH0
+Z27 Izm=jU0_IOn@j9@z0lfc]>3
+Z28 VE==aoBMhbCYhWlNGl00340
+R3
+Z29 w1742853992
+Z30 8C:/altera/13.0sp1/project1/project1b/project1b_tb.v
+Z31 FC:/altera/13.0sp1/project1/project1b/project1b_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1743091645.280000
+!s107 C:/altera/13.0sp1/project1/project1b/project1b_tb.v|
+Z32 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project1/project1b/project1b_tb.v|
+!s101 -O0
+R11
+vseg_decoder
+Z33 I9i6]I<C@YiUUHEPK]?@J12
+Z34 VhnUkM;=6gYl@b8<:Kl]?G0
+R3
+R4
+R5
+R6
+L0 17
+R7
+r1
+31
+R8
+R9
+R10
+R11
+!i10b 1
+Z35 !s100 VFNf;a_=[i8jnTAeNCF0i0
+!s85 0
+!s101 -O0

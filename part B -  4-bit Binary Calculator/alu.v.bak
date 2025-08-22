@@ -1,0 +1,80 @@
+module alu (
+    input clk,
+    input reset,
+    input [3:0] A,
+    input [3:0] B,
+    input [2:0] op_code,       //Determine Instruction
+    input [1:0] compute_op,    // Arithmetic operation select
+    output reg [7:0] result,   // 8-bit result
+    output reg done,           
+    output reg div_by_zero,    // Division error flag
+    output reg negative        // Negative result flag (subtraction)
+);
+
+    // Adder/Subtractor result wire
+    wire [7:0] add_sub_result;
+
+    // Instantiate adder_subtractor module
+    adder_subtractor add_sub (
+        .A(A),
+        .B(B),
+        .OP(compute_op[0]),  // 0=ADD, 1=SUB
+        .S(add_sub_result)
+    );
+
+    // Main ALU logic
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            // Reset all outputs
+            result <= 8'b0;
+            done <= 0;
+            div_by_zero <= 0;
+            negative <= 0;
+        end
+        else begin
+            // Default flags
+            done <= 0;
+            div_by_zero <= 0;
+            negative <= 0;
+
+            // Only process when op_code is COMPUTE (3'b101)
+            if (op_code == 3'b101) begin
+                case (compute_op)
+                    // ADDITION
+                    2'b00: begin
+                        result <= add_sub_result;
+                        done <= 1;
+                    end
+
+                    // SUBTRACTION
+                    2'b01: begin
+                        result <= add_sub_result;
+                        done <= 1;
+                        // Check carry-out (bit 4) for negative result
+                        if (add_sub_result[4] == 0)
+                            negative <= 1;
+                    end
+
+                    // MULTIPLICATION
+                    2'b10: begin
+                        result <= A * B;  // 8-bit result
+                        done <= 1;
+                    end
+
+                    // DIVISION
+                    2'b11: begin
+                        if (B == 0) begin
+                            div_by_zero <= 1;
+                            result <= 8'b0;
+                        end
+                        else begin
+                            // {Remainder, Quotient}
+                            result <= {(A % B), (A / B)};
+                            done <= 1;
+                        end
+                    end
+                endcase
+            end
+        end
+    end
+endmodule

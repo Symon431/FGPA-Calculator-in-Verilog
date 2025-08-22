@@ -1,0 +1,40 @@
+module project1b_tb;
+    // Inputs
+    reg [1:0] A, B;  // 2-bit inputs A and B
+    // Outputs
+    wire [6:0] seg;  // 7-segment display output
+
+    // Instantiate the top-level module
+    project1b DUT (
+        .A(A),
+        .B(B),
+        .seg(seg)
+    );
+
+    initial begin
+        // Display header
+        $display("A  B  |  Product (Decimal)  |  seg (Binary)  |  Display");
+        $display("-------------------------------------------------------");
+
+        // Test all combinations of A and B
+        A = 2'b00; B = 2'b00; #10 $display("%b  %b  |        0          |    %b     |   0", A, B, seg);
+        A = 2'b00; B = 2'b01; #10 $display("%b  %b  |        0          |    %b     |   0", A, B, seg);
+        A = 2'b00; B = 2'b10; #10 $display("%b  %b  |        0          |    %b     |   0", A, B, seg);
+        A = 2'b00; B = 2'b11; #10 $display("%b  %b  |        0          |    %b     |   0", A, B, seg);
+        A = 2'b01; B = 2'b00; #10 $display("%b  %b  |        0          |    %b     |   0", A, B, seg);
+        A = 2'b01; B = 2'b01; #10 $display("%b  %b  |        1          |    %b     |   1", A, B, seg);
+        A = 2'b01; B = 2'b10; #10 $display("%b  %b  |        2          |    %b     |   2", A, B, seg);
+        A = 2'b01; B = 2'b11; #10 $display("%b  %b  |        3          |    %b     |   3", A, B, seg);
+        A = 2'b10; B = 2'b00; #10 $display("%b  %b  |        0          |    %b     |   0", A, B, seg);
+        A = 2'b10; B = 2'b01; #10 $display("%b  %b  |        2          |    %b     |   2", A, B, seg);
+        A = 2'b10; B = 2'b10; #10 $display("%b  %b  |        4          |    %b     |   4", A, B, seg);
+        A = 2'b10; B = 2'b11; #10 $display("%b  %b  |        6          |    %b     |   6", A, B, seg);
+        A = 2'b11; B = 2'b00; #10 $display("%b  %b  |        0          |    %b     |   0", A, B, seg);
+        A = 2'b11; B = 2'b01; #10 $display("%b  %b  |        3          |    %b     |   3", A, B, seg);
+        A = 2'b11; B = 2'b10; #10 $display("%b  %b  |        6          |    %b     |   6", A, B, seg);
+        A = 2'b11; B = 2'b11; #10 $display("%b  %b  |        9          |    %b     |   9", A, B, seg);
+        #10
+
+        $finish;
+    end
+endmodule

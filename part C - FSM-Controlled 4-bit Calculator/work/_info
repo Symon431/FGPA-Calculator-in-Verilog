@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Project_2
+vcalculator
+Z1 I`?a1[URK``3[LlSLWzX372
+Z2 VR84N1KK8zER4L`YA1Idad2
+Z3 dC:\altera\13.0sp1\project3
+Z4 w1747590314
+Z5 8C:/altera/13.0sp1/project3/calculator.v
+Z6 FC:/altera/13.0sp1/project3/calculator.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project3/calculator.v|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 RW6FB1<9JaU8UkaoV[c0C1
+!s85 0
+Z11 !s108 1747590350.662000
+Z12 !s107 C:/altera/13.0sp1/project3/calculator.v|
+!s101 -O0
+vcalculator_tb
+!i10b 1
+!s100 [obbeA?Ff=>FFgOk`S5IB3
+IAB@h=>BWL0dLMhTT?MXmV3
+Z13 V?2SQRWVPO58MPG<PNRBP93
+R3
+w1747590338
+Z14 8C:/altera/13.0sp1/project3/calculator_tb.v
+Z15 FC:/altera/13.0sp1/project3/calculator_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1747590350.839000
+!s107 C:/altera/13.0sp1/project3/calculator_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project3/calculator_tb.v|
+!s101 -O0
+R9
+vdisplay
+Z17 I]z0HnCQ[gC[:fK<l;Bc5A3
+Z18 VMJz>?j4>de12MIAhZbODW2
+R3
+Z19 w1747587690
+Z20 8C:/altera/13.0sp1/project3/display.v
+Z21 FC:/altera/13.0sp1/project3/display.v
+L0 1
+R7
+r1
+31
+R9
+Z22 !s100 4QSPddVaFDmmO1?OWX[YA2
+Z23 !s108 1747587976.286000
+Z24 !s107 C:/altera/13.0sp1/project3/display.v|
+Z25 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project3/display.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdisplay_logic
+Z26 IIgAjjFA`E5[HQz@9Lj?X02
+Z27 V48lGkIb@d_>g?ibTN6Cd22
+R3
+Z28 w1747590031
+R20
+R21
+L0 1
+R7
+r1
+31
+R25
+R9
+Z29 !s100 9XlzY2HnP>9oJOJYEEXLC1
+Z30 !s108 1747590350.488000
+R24
+!i10b 1
+!s85 0
+!s101 -O0
+vfsm
+Z31 !s100 dRZI?hl5U7Zm1C<>_bACT1
+Z32 IGLPN7I<POB;H06nNkT8bk0
+Z33 V[]b@CaO^8CKQocl2U>;g]1
+R3
+Z34 w1747590096
+Z35 8C:/altera/13.0sp1/project3/fsm.v
+Z36 FC:/altera/13.0sp1/project3/fsm.v
+L0 1
+R7
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project3/fsm.v|
+R9
+Z38 !s108 1747590350.142000
+Z39 !s107 C:/altera/13.0sp1/project3/fsm.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfsm_tb
+Z40 !s100 @5O=8Pm5J`>Fa1<MJTg_@2
+Z41 IfXWg<]GT?:U68H806HaNX3
+Z42 Vbz^_9jeTXS5ShaYI_8LLk1
+R3
+Z43 w1747590234
+Z44 8C:/altera/13.0sp1/project3/tb_fsm.v
+Z45 FC:/altera/13.0sp1/project3/tb_fsm.v
+L0 1
+R7
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/project3/tb_fsm.v|
+R9
+Z47 !s108 1747590350.315000
+Z48 !s107 C:/altera/13.0sp1/project3/tb_fsm.v|
+!i10b 1
+!s85 0
+!s101 -O0

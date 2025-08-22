@@ -1,0 +1,28 @@
+module fsm (
+    input clk,
+    input reset,
+    input start,
+    input enter,
+    output reg [2:0] state
+);
+    // Define states
+    parameter IDLE = 3'b000, START = 3'b001, GET_A = 3'b010, DISP_A = 3'b011,
+              GET_B = 3'b100, DISP_B = 3'b101, COMPUTE = 3'b110, RESULT = 3'b111;
+
+    always @(posedge clk or posedge reset) begin
+        if (reset) state <= IDLE;
+        else begin
+            case (state)
+                IDLE:    state <= (start) ? START : IDLE;
+                START:   state <= GET_A;
+                GET_A:   state <= (enter) ? DISP_A : GET_A;
+                DISP_A:  state <= GET_B;
+                GET_B:   state <= (enter) ? DISP_B : GET_B;
+                DISP_B:  state <= COMPUTE;
+                COMPUTE: state <= RESULT;
+                RESULT:  state <= IDLE;
+                default: state <= IDLE;
+            endcase
+        end
+    end
+endmodule

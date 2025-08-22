@@ -1,0 +1,423 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vadder_subtractor
+Z1 !s100 kh1XVhElMlhCC6^=`T2dE3
+Z2 INTN5n7bWl[1Y_MOBc^o?Q0
+Z3 V<JEk43:kIOa@6MgTMnKHJ3
+Z4 dC:\altera\13.0sp1\Project_2
+Z5 w1746192934
+Z6 8C:/altera/13.0sp1/Project_2/adder_subtractor.v
+Z7 FC:/altera/13.0sp1/Project_2/adder_subtractor.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/adder_subtractor.v|
+Z10 o-work work -O0
+Z11 !s108 1746195245.101000
+Z12 !s107 C:/altera/13.0sp1/Project_2/adder_subtractor.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valu
+Z13 !s100 ?mFJH?E6`n2INlYm]Ri>12
+Z14 I_5iY5[3@Ocez0cZladC023
+Z15 Vf[h4=H8a1M20dk5[d95oO1
+R4
+Z16 w1745652947
+Z17 8C:/altera/13.0sp1/Project_2/alu.v
+Z18 FC:/altera/13.0sp1/Project_2/alu.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/alu.v|
+R10
+Z20 !s108 1746195245.302000
+Z21 !s107 C:/altera/13.0sp1/Project_2/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcalculator_datapath
+Z22 !s100 8N>g6eSQkL1dNN=HnJokG3
+Z23 IT9>nOM2Ob]G39`B?nXi6E1
+Z24 V3=PF6MXFj[[BUimLGj3X71
+R4
+Z25 w1745655196
+Z26 8C:/altera/13.0sp1/Project_2/calculator_datapath.v
+Z27 FC:/altera/13.0sp1/Project_2/calculator_datapath.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/calculator_datapath.v|
+R10
+Z29 !s108 1746195248.147000
+Z30 !s107 C:/altera/13.0sp1/Project_2/calculator_datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z31 !s100 MmQ9=m?:CBS4_6g`0agge0
+Z32 I2bPfO3GXezbShQi==eBjT1
+Z33 VUjm0S15o>Oc]1J73OB:>A1
+R4
+Z34 w1745495085
+Z35 8C:/altera/13.0sp1/Project_2/datapath.v
+Z36 FC:/altera/13.0sp1/Project_2/datapath.v
+L0 1
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/datapath.v|
+R10
+Z38 !s108 1745654001.743000
+Z39 !s107 C:/altera/13.0sp1/Project_2/datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder
+Z40 !s100 o3oN1m=J21L2g2BflhKZG1
+Z41 I2>3KfAR^i?i:7ZS67g5LJ1
+Z42 V>ILU1P]h62<nK4H<hBjFP1
+R4
+Z43 w1745437054
+Z44 8C:/altera/13.0sp1/Project_2/decoder.v
+Z45 FC:/altera/13.0sp1/Project_2/decoder.v
+L0 1
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/decoder.v|
+R10
+Z47 !s108 1745441889.777000
+Z48 !s107 C:/altera/13.0sp1/Project_2/decoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_1to2
+Z49 !s100 28h3RHV05]eB:zRM8V=hT0
+Z50 Ik]IS<n>MUf4:dRP2B6=hG3
+Z51 VFjUSVBSaACI`foP0NN:6[2
+R4
+Z52 w1745500195
+R44
+R45
+L0 1
+R8
+r1
+31
+R46
+R10
+Z53 !s108 1746195247.773000
+R48
+!i10b 1
+!s85 0
+!s101 -O0
+vdff4
+Z54 !s100 ^_R;K2QYUb@8KGz49:S1;2
+Z55 IP0ocbJ<f?^5TPY9i6Ez5W3
+Z56 VV;aJ@[jZei93I@E:A5eRT3
+R4
+Z57 w1745436237
+Z58 8C:/altera/13.0sp1/Project_2/dff4.v
+Z59 FC:/altera/13.0sp1/Project_2/dff4.v
+L0 1
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/dff4.v|
+R10
+Z61 !s108 1746195247.388000
+Z62 !s107 C:/altera/13.0sp1/Project_2/dff4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_adder_1bit
+Z63 !s100 @9aR`@dk<iEZNR3e>_i292
+Z64 I_>9jzcaeIbKl8YAR?SE8m2
+Z65 Vk]dj<6SYWj4L2bh<8ezPZ3
+R4
+Z66 w1745504828
+Z67 8C:/altera/13.0sp1/Project_2/full_adder_1bit.v
+Z68 FC:/altera/13.0sp1/Project_2/full_adder_1bit.v
+L0 1
+R8
+r1
+31
+Z69 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/full_adder_1bit.v|
+R10
+Z70 !s108 1746195245.475000
+Z71 !s107 C:/altera/13.0sp1/Project_2/full_adder_1bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2to1
+Z72 !s100 Z`<<mZj>dQJBGBmbmEz:h1
+Z73 I;i@ZmdljjGCDkFLmlS9[k0
+Z74 V7:9jUF86FgCaR@NTn`APg0
+R4
+Z75 w1745225943
+Z76 8C:/altera/13.0sp1/Project_2/mux2to1.v
+Z77 FC:/altera/13.0sp1/Project_2/mux2to1.v
+L0 1
+R8
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/mux2to1.v|
+R10
+Z79 !s108 1746195245.868000
+Z80 !s107 C:/altera/13.0sp1/Project_2/mux2to1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2to1_1bit
+!i10b 1
+!s100 Tdg=QXKE>zDn^idA:6LG>3
+Ij93^BTBRF`KCaEiBLNfYP2
+Z81 V9<:EV2>lC`0lT2YfgRZ6e0
+R4
+w1747579887
+Z82 8C:/altera/13.0sp1/Project_2/mux2to1_1bit.v
+Z83 FC:/altera/13.0sp1/Project_2/mux2to1_1bit.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1747579922.994000
+!s107 C:/altera/13.0sp1/Project_2/mux2to1_1bit.v|
+Z84 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/mux2to1_1bit.v|
+!s101 -O0
+R10
+vripple_carry_adder_4bit
+Z85 !s100 :?GaYZ>=DVIc0M_^JeMRW2
+Z86 I^kiC_cO4RUWoPNDU9UNI<0
+Z87 VhFIDTo82mHPoGHO0Xnink3
+R4
+Z88 w1745224854
+Z89 8C:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit.v
+Z90 FC:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit.v
+L0 1
+R8
+r1
+31
+Z91 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit.v|
+R10
+Z92 !s108 1746195246.638000
+Z93 !s107 C:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_adder_subtractor
+Z94 !s100 ?]dI?98;kDoYEcD<Q3PjR2
+Z95 I;NiYNB9]P_ZIUX=zHQXUE3
+Z96 VU?08R2WO]@S=MTeYoK;Z00
+R4
+Z97 w1745227473
+Z98 8C:/altera/13.0sp1/Project_2/tb_adder_subtractor.v
+Z99 FC:/altera/13.0sp1/Project_2/tb_adder_subtractor.v
+L0 1
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/tb_adder_subtractor.v|
+R10
+Z101 !s108 1746195247.005000
+Z102 !s107 C:/altera/13.0sp1/Project_2/tb_adder_subtractor.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_alu
+Z103 !s100 ckf8CXQG8SfTXZ:4YE1QV0
+Z104 IdH^FUh9Y[:^loNFof][BT3
+Z105 VS_Y`c29E2zA:f=1J@M@hG1
+R4
+Z106 w1745653597
+Z107 8C:/altera/13.0sp1/Project_2/tb_alu.v
+Z108 FC:/altera/13.0sp1/Project_2/tb_alu.v
+L0 1
+R8
+r1
+31
+Z109 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/tb_alu.v|
+R10
+Z110 !s108 1746195247.194000
+Z111 !s107 C:/altera/13.0sp1/Project_2/tb_alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_calculator_datapath
+Z112 !s100 VFn81CeJJ`?9:HUfWXWVS1
+Z113 IZP4aRQc3JjNkM`aZD9l;z0
+Z114 VMZT2`8=ohAz;JWNZ<AERg0
+R4
+Z115 w1745656540
+Z116 8C:/altera/13.0sp1/Project_2/tb_calculator_datapath.v
+Z117 FC:/altera/13.0sp1/Project_2/tb_calculator_datapath.v
+L0 1
+R8
+r1
+31
+Z118 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/tb_calculator_datapath.v|
+R10
+!i10b 1
+!s85 0
+Z119 !s108 1746195248.322000
+Z120 !s107 C:/altera/13.0sp1/Project_2/tb_calculator_datapath.v|
+!s101 -O0
+vtb_datapath
+Z121 !s100 F`OFac>VbLVWbV=I@zz?H3
+Z122 I]:Om1>QFbMI8aHOkYPYDe1
+Z123 Vh<[XYB6fl`cz@cc[EhMEa0
+R4
+Z124 w1745500766
+Z125 8C:/altera/13.0sp1/Project_2/tb_datapath.v
+Z126 FC:/altera/13.0sp1/Project_2/tb_datapath.v
+L0 1
+R8
+r1
+31
+Z127 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/tb_datapath.v|
+R10
+Z128 !s108 1745656005.138000
+Z129 !s107 C:/altera/13.0sp1/Project_2/tb_datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_decoder
+Z130 !s100 PYkEF[Q>4:Zo3<il@@ZMP0
+Z131 IhagdNR[AzViPg6mFRQ5TW1
+Z132 V0ji;jEKYl3?;n9`1EN=Eb3
+R4
+Z133 w1745440267
+Z134 8C:/altera/13.0sp1/Project_2/tb_decoder.v
+Z135 FC:/altera/13.0sp1/Project_2/tb_decoder.v
+L0 1
+R8
+r1
+31
+Z136 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/tb_decoder.v|
+R10
+Z137 !s108 1745441890.022000
+Z138 !s107 C:/altera/13.0sp1/Project_2/tb_decoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_decoder_1to2
+Z139 !s100 0EiWGzk^2kWHjnU:zLgjm3
+Z140 IJ?zgkSbV;S1fT41Sk^f=O0
+Z141 VSgQ<NVR3NE9JR_JB9IR]c0
+R4
+Z142 w1745492768
+R134
+R135
+L0 1
+R8
+r1
+31
+R136
+R10
+Z143 !s108 1746195247.963000
+R138
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_dff4
+Z144 !s100 m7Qf=H`o`^8i_h5Qb;3Fa0
+Z145 I[kE`X5?Cg:OO;m>T>>?eG3
+Z146 Vgd`oJmUANEX`@PW?[V@PE1
+R4
+Z147 w1745436367
+Z148 8C:/altera/13.0sp1/Project_2/tb_dff4.v
+Z149 FC:/altera/13.0sp1/Project_2/tb_dff4.v
+L0 1
+R8
+r1
+31
+Z150 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/tb_dff4.v|
+R10
+Z151 !s108 1746195247.590000
+Z152 !s107 C:/altera/13.0sp1/Project_2/tb_dff4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_full_adder
+Z153 !s100 dkb>9J<BV?dY`9Nffl6VB0
+Z154 IUGTm`mDQd2:HQRceAYo<61
+Z155 VacW3k32[jbjljVL_6:DL02
+R4
+Z156 w1745226312
+Z157 8C:/altera/13.0sp1/Project_2/full_adder_1bit_tb.v
+Z158 FC:/altera/13.0sp1/Project_2/full_adder_1bit_tb.v
+L0 1
+R8
+r1
+31
+Z159 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/full_adder_1bit_tb.v|
+R10
+Z160 !s108 1746195245.679000
+Z161 !s107 C:/altera/13.0sp1/Project_2/full_adder_1bit_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_mux2to1
+Z162 !s100 6jZb?n^lfi@8Tn020T9:F3
+Z163 Iag2^25@=O;2>6UBV`ZJS`0
+Z164 VOY_BOToO2AlJXLk_D6MHj1
+R4
+Z165 w1745226359
+Z166 8C:/altera/13.0sp1/Project_2/mux2to1_tb.v
+Z167 FC:/altera/13.0sp1/Project_2/mux2to1_tb.v
+L0 1
+R8
+r1
+31
+Z168 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/mux2to1_tb.v|
+R10
+Z169 !s108 1746195246.440000
+Z170 !s107 C:/altera/13.0sp1/Project_2/mux2to1_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_mux2to1_1bit
+Z171 !s100 VbUnnD80:kW1hPF0:ALBn2
+Z172 IfGnM@L5FdoER4;`]EE11j0
+Z173 V1WY]BiBYBIW5XT1RNd;DK0
+R4
+Z174 w1745226293
+Z175 8C:/altera/13.0sp1/Project_2/mux2to1_1bit_tb.v
+Z176 FC:/altera/13.0sp1/Project_2/mux2to1_1bit_tb.v
+L0 1
+R8
+r1
+31
+Z177 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/mux2to1_1bit_tb.v|
+R10
+Z178 !s108 1746195246.252000
+Z179 !s107 C:/altera/13.0sp1/Project_2/mux2to1_1bit_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_ripple_carry_adder
+Z180 !s100 <TB1SG3`<c]eGgZIb_6Wn3
+Z181 INzHF@;;G8F[NBjZz`dfXF2
+Z182 VICB7Jb]h?k_9bE6W9;85:2
+R4
+Z183 w1745226340
+Z184 8C:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit_tb.v
+Z185 FC:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit_tb.v
+L0 1
+R8
+r1
+31
+Z186 !s90 -reportprogress|300|-work|work|C:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit_tb.v|
+R10
+Z187 !s108 1746195246.821000
+Z188 !s107 C:/altera/13.0sp1/Project_2/ripple_carry_adder_4bit_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0

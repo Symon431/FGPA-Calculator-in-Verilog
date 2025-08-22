@@ -1,0 +1,36 @@
+module tb_decoder;
+    reg [1:0] sel;       
+    reg load;           
+    wire [3:0] out;     
+
+    // Instantiate the decoder
+    decoder DUT (
+        .sel(sel),
+        .load(load),
+        .out(out)
+    );
+
+    integer i;  // Declare loop variable explicitly
+
+    initial begin
+        // Test load=0 (disabled)
+        load = 0;
+        $display("Testing load=0:");
+        for (i = 0; i < 4; i = i + 1) begin
+            sel = i;
+            #5;
+            $display("Time=%0t | Load=%b | Sel=%b | Out=%b", $time, load, sel, out);
+        end
+
+        // Test load=1 (enabled)
+        load = 1;
+        $display("\nTesting load=1:");
+        for (i = 0; i < 4; i = i + 1) begin
+            sel = i;
+            #5;
+            $display("Time=%0t | Load=%b | Sel=%b | Out=%b", $time, load, sel, out);
+        end
+
+        $finish;
+    end
+endmodule

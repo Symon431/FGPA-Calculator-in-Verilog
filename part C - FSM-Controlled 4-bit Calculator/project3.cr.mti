@@ -1,0 +1,36 @@
+C:/altera/13.0sp1/project3/calculator.v {1 {vlog -work work C:/altera/13.0sp1/project3/calculator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module calculator
+
+Top level modules:
+	calculator
+
+} {} {}} C:/altera/13.0sp1/project3/display.v {1 {vlog -work work C:/altera/13.0sp1/project3/display.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module display_logic
+
+Top level modules:
+	display_logic
+
+} {} {}} C:/altera/13.0sp1/project3/fsm.v {1 {vlog -work work C:/altera/13.0sp1/project3/fsm.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}} C:/altera/13.0sp1/project3/calculator_tb.v {1 {vlog -work work C:/altera/13.0sp1/project3/calculator_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module calculator_tb
+
+Top level modules:
+	calculator_tb
+
+} {} {}} C:/altera/13.0sp1/project3/tb_fsm.v {1 {vlog -work work C:/altera/13.0sp1/project3/tb_fsm.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fsm_tb
+
+Top level modules:
+	fsm_tb
+
+} {} {}}
